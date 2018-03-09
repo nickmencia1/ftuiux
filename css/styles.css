@@ -1,0 +1,183 @@
+.header {
+  /* 30vh - 30% of the view port height */
+  padding: 15vh 15%;
+  background-color: #cccccc;
+  /* image by NeuPaddy */
+  background-image: url("../images/bg-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity:.95 ;
+}
+
+h1{
+  margin: .5rem 0 3rem 0;
+}
+
+.row .row {
+  margin: 0rem 0rem;
+}
+
+.btn-purple {
+  background-color: purple;
+  color: white;
+}
+
+.btn-cta{
+  font-size: .8rem;
+
+}
+
+.display-1 {
+  color: #FFFFFF;
+  text-shadow: 1px 1px 3px #000000;
+  font-size: 2rem;
+
+
+
+}
+
+.display-4 {
+  color: #c1cd34;
+  text-shadow: 1px 1px 3px #000000;
+}
+/*FOOTER STYLES  */
+.footer{
+  background-color:#222222;
+  padding: 1rem 0rem;
+}
+.footer a:hover i{
+  color:blue;
+  background-color: yellow;
+}
+.footer a: visited i{
+  color: black;
+  background-color: red;
+  }
+  .footer a: active
+  i{
+    color: orange;
+    background-color: green;
+  }
+.button a:hover i{
+  color: blue;
+  background-color: yellow;
+}
+.fab{
+  font-size: 2rem;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+ padding: 10px;
+}
+
+
+.testimonials{
+background-color: #cccccc;
+padding: 5rem 0;
+}
+
+.img-testimonial img {border-radius:1rem;
+
+}
+
+.blockquote{
+padding: 3rem 0
+}
+
+.blockquote p {
+  font-size: 1.5rem;
+  color: #222222;
+  font-family: Tahoma, sans-serif
+
+}
+
+.blockquote footer {
+  font-size: 1rem;
+  font-color: red;
+  font-family: Tahoma, sans-serif;
+
+
+}
+
+.blockquote cite{
+  font-size: 1rem;
+  font-color: red;
+  font-family: Tahoma, sans-serif;
+
+
+}
+
+.input{
+  margin-bottom: 1.5rem;
+}
+.btn-nicolas {
+color:green;
+background-color:red;
+padding: .5rem 2rem;
+font-size: 1.8rem;
+border-radius: 20px;
+
+
+}
+.navbar-brand {
+  color:#ED7A3D;
+  background-color:#ED7A3D;
+  padding: 1rem
+}
+
+.nav-item a{
+  color: #ED7A3D;
+  background-color: grey;
+  font-size: 2rem;
+}
+
+.bg-nav
+color: #ED7A3D;
+color-background: #ED7A3D;
+
+.h1, h1
+{
+  font-size: 1.5rem;
+
+}
+/*phones and stuff 576px and up  */
+@media (min-width: 576px){
+  .display-1{
+    font-size: 4rem;}
+    .btn-cta { font-size: 1rem;}
+
+      .h1, h1{
+        font-size: 2.5rem;
+
+
+
+    }
+  }
+  .h1{
+    margin: .3rem 0 2rem 0;
+}
+
+
+
+/* medium devices tablets 768px */
+
+@media (min-width: 768px){
+  .display-1{
+    font-size: 6rem;
+  }
+}
+.btn-cta { font-size: 2rem;
+
+}
+
+
+
+/* desktops 992px and up */
+@media (min0width 992px) {
+
+}
+
+/* xtra large devices */
+@media (min-width: 1200px){
+
+}
